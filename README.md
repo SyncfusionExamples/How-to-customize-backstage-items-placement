@@ -1,2 +1,10 @@
 # How to customize placement of the backstage items in RibbonControlAdv
-This repository contains samples that demonstrate how to customize the backstage items placement in the RibbonControlAdv. For more details please refer [How to customizr the backstage in RibbonControlAdv](https://www.syncfusion.com/kb/5165/how-to-customize-the-backstageview-menu-button-alignment).
+In RibbonControlAdv, the BackStageButton alignment can be customized by using the BackStageButtonAlignment property.The following code example demonstrates the same. For more details please refer [How to customize the backstage in RibbonControlAdv](https://www.syncfusion.com/kb/5165/how-to-customize-the-backstageview-menu-button-alignment).
+
+# C#
+    //Sets the BackStage Arrow alignment as left.
+    this.ribbonControlAdv1.BackStageButtonAlignment = BackButtonAlignment.Left;
+    //Sets the BackStage Arrow alignment as center.
+    this.ribbonControlAdv1.BackStageButtonAlignment = BackButtonAlignment.Center;
+    //To set the BackStage Arrow alignment as right
+    this.ribbonControlAdv1.BackStageButtonAlignment = BackButtonAlignment.Right;
