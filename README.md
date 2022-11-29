@@ -3,8 +3,6 @@ In RibbonControlAdv, the BackStageButton alignment can be customized by using th
 
 Note:The BackStageButtonAlignment property is not applicable to Office2010 and Office2007 Ribbon styles.
 
-![Customize backStage](Image/Customize%20BackStage.png)
-
 # C#
     //Sets the BackStage Arrow alignment as left.
     this.ribbonControlAdv1.BackStageButtonAlignment = BackButtonAlignment.Left;
@@ -13,3 +11,4 @@ Note:The BackStageButtonAlignment property is not applicable to Office2010 and O
     //To set the BackStage Arrow alignment as right
     this.ribbonControlAdv1.BackStageButtonAlignment = BackButtonAlignment.Right;
 
+![Customize backStage](Image/Customize%20BackStage.png)
