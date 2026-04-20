@@ -1,7 +1,37 @@
-# How to customize placement of the backstage items in RibbonControlAdv
+# Customize Backstage Items Placement in WinForms RibbonControlAdv
 
-This repository contains a WinForms sample that demonstrates how to customize the placement of backstage items in the Syncfusion RibbonControlAdv. The sample shows how to create a RibbonControlAdv with a BackStageView and arrange different BackStage tabs, separators, and buttons in specific positions within the backstage menu.
+This sample demonstrates how to **customize the placement of Backstage items** in the **Syncfusion WinForms RibbonControlAdv**. It shows how to control the layout and positioning of Backstage view items to achieve a tailored navigation experience within the Ribbon interface.
 
-In this example, the BackStageView is associated with the RibbonControlAdv through the BackStageView property, and multiple BackStageTab items such as Open, Save Attachments, Office Accounts, and Print are added programmatically. The placement of selected items is customized by setting the BackStageItemPlacement property to Bottom, allowing items like Print and Close to appear at the bottom section of the backstage panel.
+## Overview
+The Backstage view in RibbonControlAdv provides a centralized location for application‑level commands such as file operations and settings. This example illustrates how the placement of Backstage items can be customized to better align with application requirements and user experience design.
 
-This approach is useful when building Office-style WinForms applications where backstage commands need to be visually grouped or positioned consistently. It provides better control over the backstage layout without changing the overall ribbon structure or user interaction flow.
+By configuring Backstage view properties programmatically, developers can influence how and where Backstage items appear without altering the core Ribbon layout.
+
+## What This Sample Demonstrates
+- How to customize the placement of Backstage items in RibbonControlAdv
+- How to modify Backstage layout behavior programmatically
+- How to control the alignment of Backstage view elements
+- How to integrate customized Backstage placement with existing ribbon tabs
+- How to enhance usability through tailored Backstage navigation
+
+## Key Components Used
+- **RibbonControlAdv**: Hosts the ribbon interface with Backstage support
+- **BackStage / BackStageView**: Displays application‑level commands
+- **RibbonWindow / Form**: Hosts the RibbonControlAdv
+- **Program.cs**: Handles application startup and initialization
+
+## How It Works
+1. RibbonControlAdv is initialized with Backstage support enabled.
+2. Backstage items are added to the Ribbon.
+3. Placement properties are configured to control how Backstage items are arranged.
+4. The Backstage view reflects the customized layout at runtime.
+5. Ribbon and Backstage remain fully functional with the adjusted placement.
+
+## Benefits
+- Provides better control over Backstage navigation layout
+- Enhances usability for file and application‑level commands
+- Allows flexible UI design without custom rendering
+- Maintains consistency with standard Ribbon behavior
+- Ideal for WinForms applications using RibbonControlAdv
+
+This approach is useful for applications that rely heavily on the Ribbon Backstage view and require customized placement of Backstage items for improved user experience.
